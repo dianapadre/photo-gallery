@@ -8,12 +8,13 @@
 html {
   scroll-behavior: smooth;
 }
-body {
+body, footer {
   transition: all 0.3s linear;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  background: #fef9f6;
+  background: #faf2ee;
+  color: #344c4c;
 }
 a {
   text-decoration: none;
@@ -27,8 +28,9 @@ a {
 .fixed-header {
   background: #fef9f6;
 }
-.fixed-header .nav-link {
-}
+/* .fixed-header .nav-link {
+  text-transform: lowercase !important;
+} */
 header div {
   margin: 0 auto;
   display: flex;
@@ -45,7 +47,7 @@ header img {
     display: flex;
 }
 p.logo {
-  color: #19100a;
+  color: #304147;
   font-size: 24px;
   margin-top: 26px;
   margin-bottom: 26px;
@@ -68,7 +70,7 @@ p.logo {
 
 }
 .nav-link {
-  color: #858381;
+  color: #839380;
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
@@ -79,7 +81,7 @@ p.logo {
   padding: 3px;
 }
 .nav-link:hover {
-  color: #19100a;
+  color: #344c4c;
 }
 #showcase {
   position: relative;
@@ -106,12 +108,13 @@ p.logo {
   font-size: 30px;
 }
 .sect h1 {
+    color: #304147;
   font-family: "Comforter Brush", cursive;
   text-transform: lowercase;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
-  border-bottom: 1px solid #bdc1a4;
+  border-bottom: 1px solid #839380;
   margin: auto;
   margin-bottom: 24px;
   max-width: 1080px;
@@ -213,7 +216,7 @@ p.logo {
   line-height: 26px;
 }
 #contact {
-  background: #bdc1a4;
+  background: #cccdb5;
   text-align: center;
   line-height: 36px;
   display: flex;
@@ -229,7 +232,7 @@ p.logo {
   padding: 24px;
 }
 #form {
-  background: white;
+  background: #faf2ee;
   border: 1px dashed #453d38;
   padding: 24px;
   border-radius: 5px;
@@ -238,6 +241,7 @@ p.logo {
   text-decoration: none;
 }
 #form #email {
+  background: #faf2ee;
   border: 1px solid #453d38;
   padding: 6px;
   font-size: 18px;
@@ -250,7 +254,7 @@ p.logo {
   outline: 1px solid #453d38;
 }
 #form #submit {
-    background: #bdc1a4;
+  background: #cccdb5;
   padding: 7px;
   margin-top: 12px;
   font-size: 16px;
@@ -267,7 +271,20 @@ p.logo {
   margin: auto;
   border-radius: 5px;
 }
-
+.footer {
+  max-width: 1080px;
+  text-align: center;
+  padding: 20px 0; /* optional, adds vertical spacing */
+  margin: auto;
+  border-top: 1px solid #839380;
+}
+.footer a{
+  color: #344c4c;
+  text-decoration: underline;
+}
+.footer a:hover{
+  color: #839380;
+}
 /* high resolution tablet */
 /* @media (max-width: 1024px) {
 } */
