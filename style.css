@@ -7,13 +7,12 @@
 }
 html {
   scroll-behavior: smooth;
-  max-width: 1080px;
 }
 body, footer{
   transition: all 0.3s linear;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1em;
   background: #faf2ee;
   color: #344c4c;
 }
