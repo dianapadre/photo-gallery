@@ -26,7 +26,6 @@ a {
 }
 .fixed-header {
   background: #fef9f6;
-  /* border-bottom: 1px solid #19100a; */
 }
 .fixed-header .nav-link {
   text-transform: lowercase !important;
@@ -110,9 +109,10 @@ header img {
   font-weight: normal;
   font-size: 40px;
   text-align: center;
-  /* text-decoration: underline; */
   border-bottom: 1px solid #a6a4a3;
+  margin: auto;
   margin-bottom: 24px;
+  max-width: 1080px;
 }
 #gallery {
   background: #fef9f6;
@@ -266,5 +266,5 @@ header img {
 }
 
 /* high resolution tablet */
-@media (max-width: 1024px) {
-}
+/* @media (max-width: 1024px) {
+} */
