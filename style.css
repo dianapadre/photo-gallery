@@ -27,9 +27,9 @@ a {
 .fixed-header {
   background: #fef9f6;
 }
-/* .fixed-header .nav-link {
-  text-transform: lowercase !important;
-} */
+.fixed-header .nav-link {
+  /* text-transform: lowercase !important; */
+}
 header div {
   margin: 0 auto;
   display: flex;
