@@ -8,11 +8,11 @@
 html {
   scroll-behavior: smooth;
 }
-body, footer{
+body, footer {
   transition: all 0.3s linear;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 20px;
   background: #faf2ee;
   color: #344c4c;
 }
@@ -274,7 +274,7 @@ p.logo {
 .footer {
   max-width: 1080px;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0; /* optional, adds vertical spacing */
   margin: auto;
   border-top: 1px solid #839380;
 }
