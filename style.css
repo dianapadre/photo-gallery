@@ -274,7 +274,7 @@ p.logo {
 .footer {
   max-width: 1080px;
   text-align: center;
-  padding: 20px 0; /* optional, adds vertical spacing */
+  padding: 20px 0;
   margin: auto;
   border-top: 1px solid #839380;
 }
