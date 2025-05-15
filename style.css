@@ -8,7 +8,7 @@
 html {
   scroll-behavior: smooth;
 }
-body, footer {
+body{
   transition: all 0.3s linear;
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
