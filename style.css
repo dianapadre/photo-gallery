@@ -27,9 +27,9 @@ a {
 .fixed-header {
   background: #fef9f6;
 }
-.fixed-header .nav-link {
+/* .fixed-header .nav-link {
   text-transform: lowercase !important;
-}
+} */
 header div {
   margin: 0 auto;
   display: flex;
@@ -80,7 +80,7 @@ p.logo {
   padding: 3px;
 }
 .nav-link:hover {
-  text-decoration: underline;
+  color: #19100a;
 }
 #showcase {
   position: relative;
