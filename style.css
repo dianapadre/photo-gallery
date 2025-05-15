@@ -43,7 +43,7 @@ header img {
   margin-top: 8px;
 }
 .logo-cont{
-  display: flex;
+    display: flex;
 }
 p.logo {
   color: #19100a;
@@ -112,7 +112,7 @@ p.logo {
   font-weight: normal;
   font-size: 40px;
   text-align: center;
-  border-bottom: 1px solid #a6a4a3;
+  border-bottom: 1px solid #bdc1a4;
   margin: auto;
   margin-bottom: 24px;
   max-width: 1080px;
@@ -251,7 +251,7 @@ p.logo {
   outline: 1px solid #453d38;
 }
 #form #submit {
-  background: #bdc1a4;
+    background: #bdc1a4;
   padding: 7px;
   margin-top: 12px;
   font-size: 16px;
